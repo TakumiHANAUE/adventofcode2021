@@ -13,4 +13,6 @@ for line in inputFile.lines:
         inc(count)
     prev_measurement = measurement
 
+inputFile.close()
+
 echo "the number of times a depth measurement increases: ", count
